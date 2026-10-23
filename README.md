@@ -1,6 +1,6 @@
 # SeasLeaF
 
-SeasLeaF is a dual-branch model for hierarchical time series forecasting. It combines predictions from a total branch and a leaf branch, then applies hierarchical reconciliation to produce coherent forecasts.
+SeasLeaF is a dual-branch model for hierarchical time series forecasting.
 
 ## Project Structure
 
@@ -15,12 +15,6 @@ SeasLeaF/
 ```
 
 `train_fusion.py` handles training and evaluation, while `models/seasleaf.py` implements the model. Each data file is paired with a hierarchy file sharing the same prefix and ending in `_hier.csv`.
-
-## Dependencies
-
-```bash
-pip install torch numpy pandas scikit-learn
-```
 
 ## Usage
 
